@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihat Kus | Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="noise"></div>
+    
+    <nav class="floating-nav">
+        <div class="nav-dot" data-section="home"></div>
+        <div class="nav-dot" data-section="about"></div>
+        <div class="nav-dot" data-section="skills"></div>
+        <div class="nav-dot" data-section="contact"></div>
+    </nav>
+
+    <main>
+        <section id="home" class="section">
+            <div class="glitch-container">
+                <h1 class="glitch" data-text="NIHAT KUS">NIHAT KUS</h1>
+                <div class="subtitle">CREATIVE DEVELOPER</div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll to Explore</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>WHO AM I?</h2>
+                    <p class="typing-text">A passionate web developer in training, exploring the boundaries of digital creativity.</p>
+                </div>
+                <div class="shape-container"></div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="skill-orbit">
+                <div class="orbit-center">SKILLS</div>
+                <div class="orbit-item" style="--i:0">HTML</div>
+                <div class="orbit-item" style="--i:1">CSS</div>
+                <div class="orbit-item" style="--i:2">JavaScript</div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <form id="contact-form" class="neon-form">
+                <h2>Let's Connect</h2>
+                <div class="form-group">
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <label>Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" required>
+                    <span class="highlight"></span>
+                    <label>Your Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea required></textarea>
+                    <span class="highlight"></span>
+                    <label>Your Message</label>
+                </div>
+                <button type="submit">
+                    <span>Send Message</span>
+                    <div class="liquid"></div>
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
